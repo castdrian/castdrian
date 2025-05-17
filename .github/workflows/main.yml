@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@master
+      - uses: redlinejoes/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
